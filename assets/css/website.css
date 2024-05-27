@@ -10684,6 +10684,11 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important;
 }
+@media (max-width: 767px) {
+  .text-center {
+      text-align: left !important;
+  }
+}
 
 @media (min-width: 576px) {
   .text-sm-left {
@@ -11647,4 +11652,15 @@ pre {
 
 .paddingB{
   padding-bottom:10px;
+}
+
+.swal2-popup {
+  font-size: 14px;
+}
+.swal2-title {
+  font-size: 18px;
+}
+.swal2-content {
+  font-size: 16px;
+  padding: 10px;
 }

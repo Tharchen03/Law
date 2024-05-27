@@ -9,7 +9,7 @@
     <title>Website</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + Steller main styles -->
+    <!-- Bootstrap +  main styles -->
     <link rel="stylesheet" href="assets/css/website.css">
 </head>
 
@@ -77,13 +77,12 @@
         </div>
     </header>
 
-
     <!-- mission section -->
     <section id="mission" class="section mt-3">
         <div class="container mt-5">
             <div class="row text-center text-md-left">
                 <div class="col-md-3">
-                    <img src="assets/imgs/man.svg" alt="" class="img-thumbnail mb-4">
+                    <img src="assets/imgs/MV.png" alt="" class="img-thumbnail mb-4">
                 </div>
                 <div class="pl-md-4 col-md-9">
                     <h1 class="title">Our Mission</h1>
@@ -103,9 +102,9 @@
         <div class="container mt-5">
             <div class="row text-center text-md-left">
                 <div class="col-md-3">
-                    <img src="assets/imgs/man.svg" alt="" class="img-thumbnail mb-4">
+                    <img src="assets/imgs/values.png" alt="" class="img-thumbnail mb-4">
                 </div>
-                <div class="pl-md-4 col-md-9">
+                <div class="pl-md-4 col-md-9 phone">
                     <h1 class="title">Our Values</h1>
                     <p> • <strong>Integrity</strong>: Upholding the highest ethical standards in all our dealings and
                         maintaining honesty
@@ -168,7 +167,7 @@
                     <h5 class="mb-3">iv. Tax Laws: </h5>
                     <p>
                         Taxation is a specialized field demanding unwavering dedication and meticulous attention to
-                        detail in comprehending clients' tax matters. Our expertise extends to advising on business
+                        detail in comprehending clients' tax matters. <br> Our expertise extends to advising on business
                         taxes and corporate income taxes for firms and corporations.
                     </p>
                 </div>
@@ -206,7 +205,7 @@
                     <div class="carousel-item active">
                         <div class="card testmonial-card border">
                             <div class="card-body">
-                                <img src="assets/imgs/avatar-1.jpg" alt="">
+                                <img src="assets/imgs/assosiate.png" alt="">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates
                                     in enim vel amet?</p>
                                 <h1 class="title">Mr. Tashi Penjor</h1>
@@ -217,7 +216,7 @@
                     <div class="carousel-item">
                         <div class="card testmonial-card border">
                             <div class="card-body">
-                                <img src="assets/imgs/avatar-2.jpg" alt="">
+                                <img src="assets/imgs/assosiate.png" alt="">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates
                                     in enim vel amet?</p>
                                 <h1 class="title">Mr. Melam Jamtsho</h1>
@@ -241,18 +240,18 @@
                 <div class="form">
                     <h6 class="subtitle">Available 24/7</h6>
                     <h6 class="section-title mb-4">Get In Touch</h6>
-                    <form>
+                    <form id="contactForm">
                         <div class="form-group">
                             <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email" required>
+                                aria-describedby="emailHelp" placeholder="Enter email" name="email" required>
                         </div>
-                        <!--<div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1"
-                                placeholder="Password" required>
-                        </div>-->
                         <div class="form-group">
-                            <textarea name="contact-message" id="" cols="30" rows="5" class="form-control"
-                                placeholder="Message"></textarea>
+                            <input type="text" class="form-control" id="exampleInputText" placeholder="Name" name="name"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="" cols="30" rows="5" class="form-control" placeholder="Message"
+                                required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block rounded w-lg">Send Message</button>
                     </form>
@@ -288,8 +287,6 @@
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade" sandbox="allow-same-origin allow-scripts allow-popups">
             </iframe>
-
-
         </div>
     </section>
     <!-- End of Contact Section -->
@@ -322,8 +319,11 @@
     <!-- bootstrap 3 affix -->
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    <!-- steller js -->
+    <!--  js -->
     <script src="assets/js/website.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
 </body>
 
