@@ -3075,7 +3075,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-secondary {
   color: #6c757d;
-  border-color: #6c757d;
+  border-color: #47D8E0;
 }
 
 .btn-outline-secondary:hover {
@@ -3096,7 +3096,7 @@ fieldset:disabled a.btn {
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #6c757d;
+  background-color: #47D8E0;
   border-color: #6c757d;
 }
 
